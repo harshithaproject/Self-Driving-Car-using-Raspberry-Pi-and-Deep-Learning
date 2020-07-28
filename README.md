@@ -6,4 +6,4 @@ The prototype for self driving car is made using plastic chasis along with the d
 
 2)Advanced Lane Detection- The advanced lane detection is done using Ross Kippenbrock Method in which the curved roads are also detected with accracy based on the white lanes on the road. The sliding window approach makes the kippen brock method more effective. The histogram analysis is made continuously so that the peaks and the lanes are maintained properly. FOr advanced lane Detection the web camera is attached in front of the car for continuous video processing.
 
-3) YOLO object Detection- The YOLO object detection is better than other region based algorithms. For YOLO object detection the videos are taken frame by frame 
+3) YOLO object Detection- The YOLO object detection is better than other region based algorithms. For YOLO object detection the videos are taken frame by frame and cleaning the frames by using image processing functions to remove the redundancy. The frames are then sent to CNN model by convolutional neural networks and 
